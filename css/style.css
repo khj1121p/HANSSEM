@@ -1,4 +1,7 @@
 @charset "uft-8";
+/* .wrap{
+    overflow: hidden;
+} */
 /* banner */
 header{
     background: url(../img/banner1.jpeg) no-repeat center;
@@ -19,6 +22,8 @@ header{
 
     transition: 0.3s;
     /* background-color: #fff; */
+
+    overflow: hidden;
 }
 header .container{
     width: 100%;
@@ -139,7 +144,7 @@ header .container{
 
 /* hamburger */
 .menu-r .hamburger,
-.menu-r .sidebar{
+.sidebar{
     display: none;
 }
 
@@ -963,7 +968,7 @@ footer .copyright{
     .menu-r .hamburger span:nth-child(3){
         top: 100%;
     }
-    .menu-r .sidebar{
+    .sidebar{
         display: inline-block;
         position: absolute;
         top: 0;
@@ -975,15 +980,19 @@ footer .copyright{
 
         transition: 0.3s;
     }
-    .menu-r .sidebar li{    
+    .sidebar li{    
         font-size: 2rem;
         margin-bottom: 16px;
         cursor: pointer;
     }
-    .menu-r .sidebar li:nth-child(4),
-    .menu-r .sidebar li:nth-child(5){
+    .sidebar li:nth-child(4),
+    .sidebar li:nth-child(5){
         font-size: 1rem;
     }
+    .sidebar.active{
+        right: 0;
+    }
+
 
     .menu-r.active .hamburger span:nth-child(1){
         top: 50%;
@@ -998,9 +1007,6 @@ footer .copyright{
     }
     .menu-r.active{
         margin-right: 200px;
-    }
-    .menu-r.active .sidebar{
-        right: 0;
     }
     .menu-r .search-box.on .search::placeholder{
         font-size: 1rem;
@@ -1332,7 +1338,7 @@ footer .copyright{
     .menu-r.active{
         margin-right: 175px;
     }
-    .menu-r .sidebar{
+    .sidebar{
         width: 200px;
         right: -200px;
     }
