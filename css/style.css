@@ -846,9 +846,11 @@ footer .f-menu li{
 footer .inquiry li{
     display: flex;
     margin: 12px 0;
+    font-weight: 500;
 }
 footer .inquiry li p{
     margin-left: 40px;
+    font-weight: 400;
 }
 footer .copyright{
     margin-top: 96px;
@@ -984,14 +986,14 @@ footer .copyright{
 
     .menu-r.active .hamburger span:nth-child(1){
         top: 50%;
-        transform: rotate(30deg);
+        transform: rotate(45deg);
     }
     .menu-r.active .hamburger span:nth-child(2){
         opacity: 0;
     }
     .menu-r.active .hamburger span:nth-child(3){
         top: 50%;
-        transform: rotate(-30deg);
+        transform: rotate(-45deg);
     }
     .menu-r.active{
         margin-right: 200px;
@@ -1192,7 +1194,7 @@ footer .copyright{
     }
     .sec-4 .m-image-box{
         width: 100%;
-        height: 1200px;
+        height: 1300px;
     }
     .sec-4 .m-image-box li:nth-child(1){
         background: url(../img/budget.webp) no-repeat center;
@@ -1229,6 +1231,9 @@ footer .copyright{
     }
 }
 @media (max-width: 840px){
+    .menu-r .search-box.on{
+        width: 240px;
+    }
     .sec-2 .swiper .right{
         height: 420px;
     }
@@ -1261,17 +1266,22 @@ footer .copyright{
         padding-left: 40px;
         padding-right: 40px;
     }
+    .header-area .logo{
+        width: 72px;
+        height: 48px;
+    }
     .menu-r.active{
         margin-right: 230px;
     }
-    .menu-r .search-icon{
-        width: 24px;
-        height: 24px;
+    .sec-1 .container{
+        margin-top: 74px;
     }
-    .menu-r .hamburger{
-        width: 20px;
-        height: 16px;
-        margin-left: 8px;
+    .sec-1 .product .brand{
+        font-size: 0.875em;
+    }
+    .sec-1 .product .name,
+    .sec-1 .product .price{
+        font-size: 1rem;
     }
     .fifthSwiper .swiper-slide{
         width: calc(50% - 20px);
@@ -1291,12 +1301,40 @@ footer .copyright{
     .fifthSwiper .swiper-slide:nth-child(20){
         display: none;
     }
+    .sec-4 .container{
+        margin-bottom: 70px;
+    }
+    .sec-4 .m-image-box{
+        height: 1100px;
+    }
+    .sec-6 h2{
+        margin: 40px 0 25px;
+    }
+    .sec-6 .btn a{
+        padding: 12px 24px;
+    }
     footer .inquiry,
     footer .copyright{
         font-size: 0.875rem;
     }
 }
 @media (max-width: 660px){
+    .menu-r .search-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .menu-r .hamburger{
+        width: 20px;
+        height: 16px;
+        margin-left: 8px;
+    }
+    .menu-r.active{
+        margin-right: 175px;
+    }
+    .menu-r .sidebar{
+        width: 200px;
+        right: -200px;
+    }
     .sec-2 .swiper .right{
         height: 370px;
     }
@@ -1304,8 +1342,21 @@ footer .copyright{
     .sec-2 .prod-img{
         height: 275px;
     }
+    .fifthSwiper .swiper-slide{
+        height: 285px;
+    }
     .sec-6 .image-6{
         height: 300px;
+    }
+    footer .inquiry li{
+        display: block;
+    }
+    footer .inquiry li p{
+        margin-top: 4px;
+        margin-left: 0;
+    }
+    footer .copyright{
+        margin-top: 46px;
     }
 }
 @media (max-width: 500px){
@@ -1321,7 +1372,13 @@ footer .copyright{
         padding-left: 16px;
         padding-right: 16px;
     }
-
+    .header-area .logo{
+        width: 36px;
+        height: 24px;
+    }
+    .menu-r.active{
+        margin-right: 195px;
+    }
     .sec-1 .product .brand,
     .sec-1 .product .name,
     .sec-1 .product .price,
