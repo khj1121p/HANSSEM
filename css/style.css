@@ -1392,6 +1392,15 @@ footer .copyright{
     .sec-2 .more{
         font-size: 0.875rem;
     }
+    .sec-2 .btn-wrap{
+        width: 72px;
+        height: 32px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev{
+        width: 32px;
+        height: 32px;
+    }
     .sec-2 .product .name{
         margin-top: 8px;
     }
