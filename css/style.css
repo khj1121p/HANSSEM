@@ -7,6 +7,7 @@ header{
     background: url(../img/banner1.jpeg) no-repeat center;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 /* header-area */
@@ -1335,13 +1336,6 @@ footer .copyright{
         height: 16px;
         margin-left: 8px;
     }
-    .menu-r.active{
-        margin-right: 175px;
-    }
-    .sidebar{
-        width: 200px;
-        right: -200px;
-    }
     .sec-2 .swiper .right{
         height: 370px;
     }
@@ -1382,9 +1376,6 @@ footer .copyright{
     .header-area .logo{
         width: 36px;
         height: 24px;
-    }
-    .menu-r.active{
-        margin-right: 195px;
     }
     .sec-1 .product .brand,
     .sec-1 .product .name,
