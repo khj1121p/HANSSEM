@@ -22,7 +22,7 @@ img, svg, video, iframe{
 }
 svg{
     stroke: #121212;
-    stroke-width: 2;
+    stroke-width: 2px;
 }
 html, body{
     font-size: 100%;
