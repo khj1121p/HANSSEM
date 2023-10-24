@@ -45,7 +45,7 @@ $(document).ready(function(){
       if($(window).scrollTop() >= 100){
         $('.top-btn-box').fadeIn();
         $('.menu-r').removeClass('active');
-
+        $('.sidebar').removeClass('active');
       }else{
         $('.top-btn-box').fadeOut();
       }
