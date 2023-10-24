@@ -975,14 +975,13 @@ footer .copyright{
         font-size: 1rem;
         margin: 8px 0;
     }
-    .sec-1 .product .name{
+    .sec-1 .product .name,
+    .sec-1 .product .price,
+    .sec-1 .product .discount{
         font-size: 1rem;
     }
     .sec-1 .product .price{
         margin-bottom: 16px;
-    }
-    .sec-1 .product .discount{
-        font-size: 1rem;
     }
     .sec-2 .main-image,
     .sec-2 .swiper .right
@@ -1467,6 +1466,9 @@ footer .copyright{
     }.sec-1 .save{
         width: 16px;
         height: 16px;
+    }
+    .sec-1 .product .discount{
+        margin-top: 8px;
     }
     .sec-2 .more{
         font-size: 0.875rem;
