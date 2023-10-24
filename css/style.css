@@ -101,7 +101,7 @@ header .container{
     height: 30px;
 }
 .menu-r .search-icon svg{
-    stroke-width: 2;
+    stroke-width: 4px;
 }
 .header-area.on{
     height: 100px;
@@ -126,6 +126,7 @@ header .container{
     outline: none;
 }
 .menu-r .search-box.on .search-icon{
+    stroke-width: 4px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -1451,7 +1452,10 @@ footer .copyright{
     }
 }
 @media (max-width: 500px){
-    header .container,
+    header .container{
+        padding-left: 16px;
+        padding-right: 24px;
+    }
     .sec-1 .container,
     .sec-2 .container,
     .sec-2 .swiper-container,
