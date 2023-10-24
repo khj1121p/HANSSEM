@@ -1408,6 +1408,9 @@ footer .copyright{
     .sec-4 .m-image-box{
         height: 1100px;
     }
+    .sec-5 .title h3{
+        font-size: 1rem;
+    }
     .sec-6 h2{
         margin: 40px 0 25px;
     }
